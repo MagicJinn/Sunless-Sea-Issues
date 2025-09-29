@@ -56,7 +56,7 @@ body:
         - Performance issue
         - Balance / Gameplay tuning
         - Quality-of-life improvement
-        - Documentation / Text error
+        - Text error
         - Other
     validations:
       required: true
