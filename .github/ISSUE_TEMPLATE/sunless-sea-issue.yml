@@ -1,0 +1,62 @@
+name: Sunless Sea Issue
+description: Report a bug, oversight, or suggestion for the unofficial Sunless Sea tracker
+title: "[Issue]: "
+labels: []
+body:
+  - type: checkboxes
+    id: affected-versions
+    attributes:
+      label: "Affected versions"
+      description: "Select all platforms where the issue occurs."
+      options:
+        - label: XBOX
+        - label: EPIC
+        - label: GOG
+        - label: STEAM
+        - label: PS4/5
+        - label: SWITCH
+
+  - type: textarea
+    id: extra-notes
+    attributes:
+      label: "Extra notes"
+      description: "Any additional details, reproduction steps, or screenshots."
+      placeholder: "e.g., Steps to reproduce, related quests, save file details…"
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: "Issue"
+      description: "Describe the problem or suggestion clearly."
+      placeholder: "What happened or what needs changing?"
+
+  - type: textarea
+    id: proposed-fix
+    attributes:
+      label: "Proposed fix"
+      description: "Optional: ideas on how to resolve or improve it."
+      placeholder: "If you have a fix or workaround, describe it here."
+
+  - type: input
+    id: fixed-by
+    attributes:
+      label: "Fixed by (mod)"
+      description: "If a community mod fixes this, list it here."
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: "Issue type"
+      description: "Pick the most relevant category."
+      options:
+        - Bug (confirmed)
+        - Bug (speculative)
+        - Enhancement / Feature request
+        - Oversight / Design gap
+        - Performance issue
+        - Balance / Gameplay tuning
+        - Quality-of-life improvement
+        - Documentation / Text error
+        - Other
+    validations:
+      required: true
