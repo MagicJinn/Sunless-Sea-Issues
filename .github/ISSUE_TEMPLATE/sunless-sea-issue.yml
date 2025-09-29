@@ -1,6 +1,6 @@
 name: Sunless Sea Issue
 description: Report a bug, oversight, or suggestion for the unofficial Sunless Sea tracker
-title: "[Issue]: "
+title: ""
 labels: []
 body:
   - type: checkboxes
